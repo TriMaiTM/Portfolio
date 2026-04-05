@@ -47,7 +47,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
               aria-label="View source code"
               title={t.projects.viewCode}
             >
-              ↗
+              {t.projects.viewCode}
             </a>
           )}
         </div>
