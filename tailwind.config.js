@@ -12,6 +12,7 @@ export default {
         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
       colors: {
+        night: '#070b14',
         // OpenClaw signature red accent
         primary: {
           50: '#fff1f1',

@@ -14,6 +14,7 @@ export const translations = {
       subtitle: 'Đam mê xây dựng giao diện web hiện đại, mượt mà và thân thiện với người dùng. Sẵn sàng học hỏi và đóng góp vào các dự án thực tế.',
       ctaProjects: 'Xem dự án',
       ctaContact: 'Liên hệ tôi',
+      announcement: 'NEW · Xin chào, tôi là Mai Trí — Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
       scrollDown: 'Cuộn xuống',
     },
     about: {
@@ -21,6 +22,7 @@ export const translations = {
       p1: 'Tôi là sinh viên ngành Công nghệ thông tin với niềm đam mê mãnh liệt với phát triển giao diện người dùng. Tôi luôn tìm kiếm các cơ hội để áp dụng kiến thức vào các dự án thực tế.',
       p2: 'Tôi có kinh nghiệm làm việc với React, TypeScript, Angular và các công nghệ web hiện đại. Tôi đặc biệt quan tâm đến trải nghiệm người dùng, hiệu suất ứng dụng và thiết kế giao diện đẹp mắt.',
       yearsStudy: 'Năm học',
+      learning: 'Học hỏi',
     },
     skills: {
       title: 'Kỹ năng',
@@ -33,10 +35,12 @@ export const translations = {
       viewProject: 'Xem dự án',
       viewCode: 'Mã nguồn',
       techStack: 'Công nghệ',
+      collaborate: 'Cùng hợp tác →',
     },
     contact: {
       title: 'Liên hệ',
       subtitle: 'Tôi luôn sẵn sàng cho các cơ hội mới. Hãy liên hệ với tôi!',
+      sendEmail: 'Gửi email cho tôi',
       emailLabel: 'Email',
       emailValue: 'trimaitm@gmail.com',
       githubLabel: 'GitHub',
@@ -62,6 +66,7 @@ export const translations = {
       subtitle: 'Passionate about building modern, smooth, and user-friendly web interfaces. Eager to learn and contribute to real-world projects.',
       ctaProjects: 'View Projects',
       ctaContact: 'Contact Me',
+      announcement: "NEW · Hi, I'm Tri Mai — Focused on building modern, smooth interfaces and polished user experiences.",
       scrollDown: 'Scroll Down',
     },
     about: {
@@ -69,6 +74,7 @@ export const translations = {
       p1: "I'm an Information Technology student with a strong passion for frontend development. I'm always looking for opportunities to apply my knowledge to real-world projects.",
       p2: 'I have experience working with React, TypeScript, Angular, and modern web technologies. I particularly care about user experience, application performance, and beautiful UI design.',
       yearsStudy: 'Years Study',
+      learning: 'Learning',
     },
     skills: {
       title: 'Skills',
@@ -81,10 +87,12 @@ export const translations = {
       viewProject: 'View Project',
       viewCode: 'Source Code',
       techStack: 'Tech Stack',
+      collaborate: "Let's collaborate →",
     },
     contact: {
       title: 'Contact',
       subtitle: "I'm always open to new opportunities. Feel free to reach out!",
+      sendEmail: 'Send me an email',
       emailLabel: 'Email',
       emailValue: 'trimaitm@gmail.com',
       githubLabel: 'GitHub',
