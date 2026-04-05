@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
           href={`mailto:${t.contact.emailValue}`}
           className="inline-flex items-center gap-2 rounded-full px-8 py-3 bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold glow-red-sm"
         >
-          {t.hero.ctaContact} →
+          {t.contact.sendEmail} →
         </a>
       </div>
     </section>

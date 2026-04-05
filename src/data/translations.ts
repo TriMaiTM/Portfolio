@@ -14,8 +14,8 @@ export const translations = {
       subtitle: 'Đam mê xây dựng giao diện web hiện đại, mượt mà và thân thiện với người dùng. Sẵn sàng học hỏi và đóng góp vào các dự án thực tế.',
       ctaProjects: 'Xem dự án',
       ctaContact: 'Liên hệ tôi',
+      announcement: 'NEW · Xin chào, tôi là {name} — Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
       scrollDown: 'Cuộn xuống',
-      highlight: 'Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
     },
     about: {
       title: 'Về tôi',
@@ -39,6 +39,7 @@ export const translations = {
     contact: {
       title: 'Liên hệ',
       subtitle: 'Tôi luôn sẵn sàng cho các cơ hội mới. Hãy liên hệ với tôi!',
+      sendEmail: 'Gửi email cho tôi',
       emailLabel: 'Email',
       emailValue: 'trimaitm@gmail.com',
       githubLabel: 'GitHub',
@@ -64,8 +65,8 @@ export const translations = {
       subtitle: 'Passionate about building modern, smooth, and user-friendly web interfaces. Eager to learn and contribute to real-world projects.',
       ctaProjects: 'View Projects',
       ctaContact: 'Contact Me',
+      announcement: "NEW · Hi, I'm {name} — Focused on building modern, smooth interfaces and polished user experiences.",
       scrollDown: 'Scroll Down',
-      highlight: 'Focused on building modern, smooth interfaces and polished user experiences.',
     },
     about: {
       title: 'About Me',
@@ -89,6 +90,7 @@ export const translations = {
     contact: {
       title: 'Contact',
       subtitle: "I'm always open to new opportunities. Feel free to reach out!",
+      sendEmail: 'Send me an email',
       emailLabel: 'Email',
       emailValue: 'trimaitm@gmail.com',
       githubLabel: 'GitHub',
