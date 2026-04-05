@@ -14,7 +14,7 @@ export const translations = {
       subtitle: 'Đam mê xây dựng giao diện web hiện đại, mượt mà và thân thiện với người dùng. Sẵn sàng học hỏi và đóng góp vào các dự án thực tế.',
       ctaProjects: 'Xem dự án',
       ctaContact: 'Liên hệ tôi',
-      announcement: 'NEW · Xin chào, tôi là {name} — Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
+      announcement: 'NEW · Xin chào, tôi là Mai Trí — Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
       scrollDown: 'Cuộn xuống',
     },
     about: {
@@ -35,6 +35,7 @@ export const translations = {
       viewProject: 'Xem dự án',
       viewCode: 'Mã nguồn',
       techStack: 'Công nghệ',
+      collaborate: 'Cùng hợp tác →',
     },
     contact: {
       title: 'Liên hệ',
@@ -65,7 +66,7 @@ export const translations = {
       subtitle: 'Passionate about building modern, smooth, and user-friendly web interfaces. Eager to learn and contribute to real-world projects.',
       ctaProjects: 'View Projects',
       ctaContact: 'Contact Me',
-      announcement: "NEW · Hi, I'm {name} — Focused on building modern, smooth interfaces and polished user experiences.",
+      announcement: "NEW · Hi, I'm Tri Mai — Focused on building modern, smooth interfaces and polished user experiences.",
       scrollDown: 'Scroll Down',
     },
     about: {
@@ -86,6 +87,7 @@ export const translations = {
       viewProject: 'View Project',
       viewCode: 'Source Code',
       techStack: 'Tech Stack',
+      collaborate: "Let's collaborate →",
     },
     contact: {
       title: 'Contact',

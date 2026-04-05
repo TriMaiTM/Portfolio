@@ -3,7 +3,6 @@ import { useLang } from '../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
   const { t } = useLang();
-  const announcement = t.hero.announcement.replace('{name}', t.hero.name);
 
   return (
     <section id="hero" className="oc-section">
@@ -20,7 +19,7 @@ const Hero: React.FC = () => {
           <p className="text-gray-300 text-lg leading-relaxed">{t.hero.subtitle}</p>
 
           <div className="mx-auto max-w-2xl rounded-full border border-gray-700 bg-gray-950/65 px-5 py-3 text-sm text-gray-200">
-            {announcement}
+            {t.hero.announcement}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

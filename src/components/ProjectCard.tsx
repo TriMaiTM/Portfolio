@@ -45,6 +45,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
               rel="noopener noreferrer"
               className="rounded-xl px-3 py-2.5 border border-gray-700 text-gray-200 hover:border-primary-500/70"
               aria-label="View source code"
+              title={t.projects.viewCode}
             >
               ↗
             </a>

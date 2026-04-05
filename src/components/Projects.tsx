@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
             <p className="text-primary-300 text-xs tracking-[0.2em] uppercase mb-2">Selected Work</p>
             <h2 className="text-3xl sm:text-4xl font-bold">{t.projects.title}</h2>
           </div>
-          <a href="#contact" className="text-sm text-primary-300 hover:text-primary-200">Let's collaborate →</a>
+          <a href="#contact" className="text-sm text-primary-300 hover:text-primary-200">{t.projects.collaborate}</a>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
