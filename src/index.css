@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,25 +8,54 @@
   html {
     scroll-behavior: smooth;
   }
+
   body {
-    @apply font-sans transition-colors duration-300;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    letter-spacing: -0.01em;
+    @apply font-sans antialiased text-gray-100 bg-[#070b14] transition-colors duration-300;
+    letter-spacing: -0.015em;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.03em;
+  }
+}
+
+@layer components {
+  .oc-shell {
+    @apply relative min-h-screen overflow-x-hidden bg-[#070b14] text-gray-100;
+  }
+
+  .oc-surface {
+    @apply rounded-3xl border border-gray-700/70 bg-gray-900/55 backdrop-blur-md;
+  }
+
+  .oc-title {
+    @apply bg-gradient-to-r from-primary-400 via-primary-500 to-accent-300 bg-clip-text text-transparent;
+  }
+
+  .oc-section {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-accent-500;
+    @apply oc-title;
   }
+
   .glass {
-    @apply bg-white/10 backdrop-blur-md border border-white/20;
+    @apply bg-gray-900/40 backdrop-blur-md border border-gray-700/60;
   }
+
   .glow-red {
-    box-shadow: 0 0 24px rgba(255, 92, 92, 0.2);
+    box-shadow: 0 0 36px rgba(255, 92, 92, 0.24);
   }
+
   .glow-red-sm {
-    box-shadow: 0 0 12px rgba(255, 92, 92, 0.15);
+    box-shadow: 0 0 18px rgba(255, 92, 92, 0.2);
   }
 }

@@ -7,16 +7,18 @@ const Projects: React.FC = () => {
   const { t } = useLang();
 
   return (
-    <section id="projects" className="py-24 bg-white dark:bg-gray-950 border-y border-gray-100 dark:border-gray-700/30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-black mb-4">
-            <span className="text-gradient">{t.projects.title}</span>
-          </h2>
+    <section id="projects" className="oc-section">
+      <div className="space-y-6">
+        <div className="oc-surface p-7 sm:p-9 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div>
+            <p className="text-primary-300 text-xs tracking-[0.2em] uppercase mb-2">Selected Work</p>
+            <h2 className="text-3xl sm:text-4xl font-bold">{t.projects.title}</h2>
+          </div>
+          <a href="#contact" className="text-sm text-primary-300 hover:text-primary-200">Let's collaborate →</a>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map(project => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
