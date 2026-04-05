@@ -11,13 +11,13 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-white dark:bg-gray-900 border-y border-gray-100 dark:border-gray-700/30">
+    <section id="about" className="py-24 bg-white dark:bg-gray-950 border-y border-gray-100 dark:border-gray-700/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative flex justify-center">
             <div className="relative">
               <div className="w-72 h-72 rounded-full bg-gradient-to-br from-primary-400 to-accent-500 p-1 glow-red">
-                <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
+                <div className="w-full h-full rounded-full bg-white dark:bg-gray-950 flex items-center justify-center">
                   <span className="text-8xl">👨‍💻</span>
                 </div>
               </div>

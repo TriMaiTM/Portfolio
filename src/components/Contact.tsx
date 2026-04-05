@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   const { t } = useLang();
 
   return (
-    <section id="contact" className="py-24 bg-gray-50 dark:bg-gray-950">
+    <section id="contact" className="py-24 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-black mb-4">
           <span className="text-gradient">{t.contact.title}</span>

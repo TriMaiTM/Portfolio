@@ -51,8 +51,8 @@ export default {
           600: '#52525b',
           700: '#1e2028',  // openclaw border
           800: '#161920',  // openclaw card bg
-          900: '#0e1015',  // openclaw main bg
-          950: '#13151b',  // openclaw alt section bg
+          900: '#13151b',  // openclaw alt section bg
+          950: '#0e1015',  // openclaw main bg (darkest)
         },
       },
       animation: {

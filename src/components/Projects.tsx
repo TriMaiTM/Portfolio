@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
   const { t } = useLang();
 
   return (
-    <section id="projects" className="py-24 bg-white dark:bg-gray-900 border-y border-gray-100 dark:border-gray-700/30">
+    <section id="projects" className="py-24 bg-white dark:bg-gray-950 border-y border-gray-100 dark:border-gray-700/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-black mb-4">
