@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
 
           <div className="mx-auto max-w-2xl rounded-full border border-gray-700 bg-gray-950/65 px-5 py-3 text-sm text-gray-200">
             <span className="mr-2 rounded-full bg-primary-500 px-2 py-1 text-[10px] font-bold text-white">NEW</span>
-            {t.hero.greeting} {t.hero.name} — building smooth and modern interfaces.
+            {t.hero.greeting} {t.hero.name} — {t.hero.highlight}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

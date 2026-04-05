@@ -15,12 +15,14 @@ export const translations = {
       ctaProjects: 'Xem dự án',
       ctaContact: 'Liên hệ tôi',
       scrollDown: 'Cuộn xuống',
+      highlight: 'Tập trung xây dựng giao diện hiện đại, mượt mà và tối ưu trải nghiệm.',
     },
     about: {
       title: 'Về tôi',
       p1: 'Tôi là sinh viên ngành Công nghệ thông tin với niềm đam mê mãnh liệt với phát triển giao diện người dùng. Tôi luôn tìm kiếm các cơ hội để áp dụng kiến thức vào các dự án thực tế.',
       p2: 'Tôi có kinh nghiệm làm việc với React, TypeScript, Angular và các công nghệ web hiện đại. Tôi đặc biệt quan tâm đến trải nghiệm người dùng, hiệu suất ứng dụng và thiết kế giao diện đẹp mắt.',
       yearsStudy: 'Năm học',
+      learning: 'Học hỏi',
     },
     skills: {
       title: 'Kỹ năng',
@@ -63,12 +65,14 @@ export const translations = {
       ctaProjects: 'View Projects',
       ctaContact: 'Contact Me',
       scrollDown: 'Scroll Down',
+      highlight: 'Focused on building modern, smooth interfaces and polished user experiences.',
     },
     about: {
       title: 'About Me',
       p1: "I'm an Information Technology student with a strong passion for frontend development. I'm always looking for opportunities to apply my knowledge to real-world projects.",
       p2: 'I have experience working with React, TypeScript, Angular, and modern web technologies. I particularly care about user experience, application performance, and beautiful UI design.',
       yearsStudy: 'Years Study',
+      learning: 'Learning',
     },
     skills: {
       title: 'Skills',

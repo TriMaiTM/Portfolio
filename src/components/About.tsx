@@ -8,7 +8,7 @@ const About: React.FC = () => {
     { value: '3+', label: 'Projects' },
     { value: '2+', label: t.about.yearsStudy },
     { value: '5+', label: 'Technologies' },
-    { value: '24/7', label: 'Learning' },
+    { value: '24/7', label: t.about.learning },
   ];
 
   return (
