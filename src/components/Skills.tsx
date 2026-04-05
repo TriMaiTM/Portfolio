@@ -48,7 +48,7 @@ const Skills: React.FC = () => {
 
         <div className="grid md:grid-cols-3 gap-6">
           {skillGroups.map(group => (
-            <div key={group.key} className={`rounded-3xl p-6 border ${group.bg} ${group.border}`}>
+            <div key={group.key} className={`rounded-2xl p-6 border ${group.bg} ${group.border}`}>
               <div className="flex items-center gap-3 mb-5">
                 <span className="text-3xl">{group.icon}</span>
                 <h3 className={`text-lg font-bold bg-gradient-to-r ${group.color} bg-clip-text text-transparent`}>
@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
                 {group.skills.map(skill => (
                   <span
                     key={skill}
-                    className="px-3 py-1.5 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm text-gray-700 dark:text-gray-300 font-medium shadow-sm"
+                    className="px-3 py-1.5 rounded-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700/60 text-sm text-gray-700 dark:text-gray-300 font-medium font-mono"
                   >
                     {skill}
                   </span>

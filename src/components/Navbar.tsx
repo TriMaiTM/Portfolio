@@ -25,19 +25,19 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled
-        ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-lg'
+        ? 'bg-white/85 dark:bg-gray-900/90 backdrop-blur-lg shadow-lg dark:shadow-black/40 border-b border-transparent dark:border-gray-700/50'
         : 'bg-transparent'
     }`}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="#hero" className="text-2xl font-bold text-gradient">MT</a>
+          <a href="#hero" className="text-2xl font-bold text-gradient glow-red-sm">MT</a>
 
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map(link => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
+                className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
               >
                 {link.label}
               </a>
@@ -47,14 +47,14 @@ const Navbar: React.FC = () => {
           <div className="flex items-center gap-2">
             <button
               onClick={toggleLang}
-              className="px-3 py-1.5 rounded-full text-xs font-semibold bg-primary-100 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 hover:bg-primary-200 dark:hover:bg-primary-800/60 transition-all"
+              className="px-3 py-1.5 rounded-full text-xs font-semibold font-mono bg-primary-100 dark:bg-primary-950/50 text-primary-700 dark:text-primary-300 hover:bg-primary-200 dark:hover:bg-primary-950/80 border border-primary-200 dark:border-primary-800/50 transition-all"
             >
               {lang === 'vi' ? 'EN' : 'VI'}
             </button>
 
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all"
+              className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 border border-transparent dark:border-gray-700/50 transition-all"
               aria-label="Toggle theme"
             >
               {theme === 'dark' ? (
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
 
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
+              className="md:hidden p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 border border-transparent dark:border-gray-700/50"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen
@@ -83,13 +83,13 @@ const Navbar: React.FC = () => {
         </div>
 
         {menuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
+          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700/50">
             {navLinks.map(link => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
+                className="block px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
               >
                 {link.label}
               </a>
