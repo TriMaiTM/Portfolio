@@ -1,34 +1,42 @@
 import React from 'react';
-import { useLang } from '../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
-  const { t } = useLang();
 
   return (
-    <section id="hero" className="oc-section">
-      <div className="oc-surface px-6 sm:px-10 py-16 sm:py-20 text-center relative overflow-hidden">
-        <div className="absolute -top-20 left-1/2 -translate-x-1/2 h-56 w-56 rounded-full bg-primary-500/20 blur-3xl" />
+    <section id="hero" className="relative pt-32 pb-20 overflow-hidden flex flex-col items-center">
+      <div className="absolute inset-0 bg-hero-gradient pointer-events-none" />
+      
+      <div className="oc-section relative z-10 flex flex-col items-center text-center">
+        
+        {/* Massive Headline */}
+        <h1 className="text-[56px] md:text-[80px] leading-[1.05] tracking-tight font-medium bg-text-gradient mb-6 max-w-4xl">
+          The product development portfolio for frontend engineers
+        </h1>
 
-        <div className="relative z-10 mx-auto max-w-3xl space-y-7">
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-primary-400/50 bg-primary-500/20 text-3xl glow-red">🤖</div>
+        <p className="text-xl md:text-[22px] text-[#8A8F98] max-w-3xl mb-16 leading-relaxed font-medium">
+          Purpose-built for planning and building high-performance web applications. Designed for the modern era.
+        </p>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold oc-title">{t.hero.name}</h1>
-
-          <p className="text-sm sm:text-base tracking-[0.28em] uppercase text-primary-300/90">{t.hero.title}</p>
-
-          <p className="text-gray-300 text-lg leading-relaxed">{t.hero.subtitle}</p>
-
-          <div className="mx-auto max-w-2xl rounded-full border border-gray-700 bg-gray-950/65 px-5 py-3 text-sm text-gray-200">
-            {t.hero.announcement}
+        {/* Mac OS Window Placeholder */}
+        <div className="w-full max-w-[1080px] rounded-xl border border-white/[0.08] bg-[#0A0A0A] mac-window-shadow overflow-hidden flex flex-col relative" style={{ aspectRatio: '16/9' }}>
+          
+          {/* Mac OS Toolbar */}
+          <div className="h-10 bg-[#141414] border-b border-white/[0.05] flex items-center px-4 gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#ED6A5E]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#F4BF4F]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#61C554]"></div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#projects" className="px-7 py-3 rounded-full bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold hover:opacity-90 glow-red-sm">
-              {t.hero.ctaProjects}
-            </a>
-            <a href="#contact" className="px-7 py-3 rounded-full border border-gray-600 text-gray-100 font-semibold hover:border-primary-500/70 hover:text-primary-300">
-              {t.hero.ctaContact}
-            </a>
+          {/* Editor/Browser Body Placeholder */}
+          <div className="flex-1 bg-[#0A0A0A] flex flex-col items-center justify-center relative overflow-hidden">
+             
+             {/* Some wireframe-like lines for placeholder feel */}
+             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wIDBoNDB2NDBIMHoiIGZpbGw9Im5vbmUiLz4KPHBhdGggZD0iTTAgNDBoNDBWMCIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIiBzdHJva2Utd2lkdGg9IjEiLz4KPC9zdmc+')] opacity-20"></div>
+
+             <div className="z-10 flex flex-col items-center">
+                <span className="text-4xl mb-4">📸</span>
+                <p className="text-[#8A8F98] font-medium tracking-wide">Screenshot of your best project goes here</p>
+             </div>
           </div>
         </div>
       </div>
