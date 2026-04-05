@@ -1,0 +1,98 @@
+export const translations = {
+  vi: {
+    nav: {
+      home: 'Trang chủ',
+      about: 'Về tôi',
+      skills: 'Kỹ năng',
+      projects: 'Dự án',
+      contact: 'Liên hệ',
+    },
+    hero: {
+      greeting: 'Xin chào, tôi là',
+      name: 'Mai Trí',
+      title: 'Frontend Developer Intern',
+      subtitle: 'Đam mê xây dựng giao diện web hiện đại, mượt mà và thân thiện với người dùng. Sẵn sàng học hỏi và đóng góp vào các dự án thực tế.',
+      ctaProjects: 'Xem dự án',
+      ctaContact: 'Liên hệ tôi',
+      scrollDown: 'Cuộn xuống',
+    },
+    about: {
+      title: 'Về tôi',
+      p1: 'Tôi là sinh viên ngành Công nghệ thông tin với niềm đam mê mãnh liệt với phát triển giao diện người dùng. Tôi luôn tìm kiếm các cơ hội để áp dụng kiến thức vào các dự án thực tế.',
+      p2: 'Tôi có kinh nghiệm làm việc với React, TypeScript, Angular và các công nghệ web hiện đại. Tôi đặc biệt quan tâm đến trải nghiệm người dùng, hiệu suất ứng dụng và thiết kế giao diện đẹp mắt.',
+      yearsStudy: 'Năm học',
+    },
+    skills: {
+      title: 'Kỹ năng',
+      frontend: 'Frontend',
+      backend: 'Backend & Tools',
+      tools: 'Công cụ',
+    },
+    projects: {
+      title: 'Dự án',
+      viewProject: 'Xem dự án',
+      viewCode: 'Mã nguồn',
+      techStack: 'Công nghệ',
+    },
+    contact: {
+      title: 'Liên hệ',
+      subtitle: 'Tôi luôn sẵn sàng cho các cơ hội mới. Hãy liên hệ với tôi!',
+      emailLabel: 'Email',
+      emailValue: 'trimaitm@gmail.com',
+      githubLabel: 'GitHub',
+      githubUrl: 'https://github.com/TriMaiTM',
+    },
+    footer: {
+      rights: '© 2025 Mai Trí. Bảo lưu mọi quyền.',
+      builtWith: 'Được xây dựng với React + Vite + TypeScript',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      about: 'About',
+      skills: 'Skills',
+      projects: 'Projects',
+      contact: 'Contact',
+    },
+    hero: {
+      greeting: "Hi, I'm",
+      name: 'Tri Mai',
+      title: 'Frontend Developer Intern',
+      subtitle: 'Passionate about building modern, smooth, and user-friendly web interfaces. Eager to learn and contribute to real-world projects.',
+      ctaProjects: 'View Projects',
+      ctaContact: 'Contact Me',
+      scrollDown: 'Scroll Down',
+    },
+    about: {
+      title: 'About Me',
+      p1: "I'm an Information Technology student with a strong passion for frontend development. I'm always looking for opportunities to apply my knowledge to real-world projects.",
+      p2: 'I have experience working with React, TypeScript, Angular, and modern web technologies. I particularly care about user experience, application performance, and beautiful UI design.',
+      yearsStudy: 'Years Study',
+    },
+    skills: {
+      title: 'Skills',
+      frontend: 'Frontend',
+      backend: 'Backend & Tools',
+      tools: 'Tools',
+    },
+    projects: {
+      title: 'Projects',
+      viewProject: 'View Project',
+      viewCode: 'Source Code',
+      techStack: 'Tech Stack',
+    },
+    contact: {
+      title: 'Contact',
+      subtitle: "I'm always open to new opportunities. Feel free to reach out!",
+      emailLabel: 'Email',
+      emailValue: 'trimaitm@gmail.com',
+      githubLabel: 'GitHub',
+      githubUrl: 'https://github.com/TriMaiTM',
+    },
+    footer: {
+      rights: '© 2025 Tri Mai. All rights reserved.',
+      builtWith: 'Built with React + Vite + TypeScript',
+    },
+  },
+};
