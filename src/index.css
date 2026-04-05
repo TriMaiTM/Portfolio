@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,9 @@
   }
   body {
     @apply font-sans transition-colors duration-300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
   }
 }
 
@@ -19,5 +22,11 @@
   }
   .glass {
     @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  .glow-red {
+    box-shadow: 0 0 24px rgba(255, 92, 92, 0.2);
+  }
+  .glow-red-sm {
+    box-shadow: 0 0 12px rgba(255, 92, 92, 0.15);
   }
 }
